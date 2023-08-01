@@ -6,7 +6,7 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -L. -loutput
+#cgo LDFLAGS: -L./heavyworker/target/release -lheavyworker
 #include <stdlib.h>
 extern char* process_data(char* input);
 */
